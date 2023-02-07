@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+.contaner{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    height: 1832px;
+    background-color: #FCFAF9;
+    position: relative;
+}
+h6{
+    position: absolute;
+    top: 61.99px;
+    left: 200px;
+    font-family: "IBM Plex Sans";
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.pink1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.pink2{
+    position: absolute;
+    top: 200px;
+    right: 50px;
+}
+.pink3{
+    position: absolute;
+    bottom: 186px;
+    right: 0;
+}
+.blue{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.mosaic{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+h1{
+    position: absolute;
+    top: 221px;
+    left: 165px;
+    width: 1015px;
+    height: 176px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -1px;
+    color: #191826;
+}
+.system{
+    position: absolute;
+    width: 825px;
+    height: 102px;
+    left: 164.5px;
+    top: 437px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #191826;
+}
+.box{
+    position: absolute;
+    width: 1110px;
+    height: 600px;
+    background-color: #191826;
+    left: 165px;
+    top: 860px;
+    border-radius: 15px;
+}
+.inbox{
+    position: absolute;
+    width: 312px;
+    height: 468px;
+    left: 501px;
+    top: 820px;
+}
+.phone{
+    position: absolute;
+    width: 350px;
+    height: 606px;
+    left: 260px;
+    top: 700px;
+}
+.redbox{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    left: 734px;
+    top: 950px;
+    background: #FA7453;
+    border-radius: 12px;
+    padding: 56px 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: flex-start;
+}
+h2{
+    width: 333px;
+    height: 52px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #FCFAF9;
+}
+.redbox p{
+    width: 333px;
+    height: 170px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #FCFAF9;
+    margin-top: 22px;
+}
+/* span{
+    margin-bottom: 30 px; */
+
+.dolar{
+   margin-left: 5px;
+}
+.iphone{
+    width: 333px;
+    height: 61px;
+    background-color: #191826;
+    border-radius:  12px;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+    /* padding: 15px 100px; */
+}
+.android{
+    width: 333px;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+    background-color: #FCFAF9;
+    border-radius:  12px;
+    /* padding: 15px 100px; */
+}
+.android:hover{
+    background-color: #FFB964;
+}
+.iphone:hover{
+    background-color: #66E2DC;
+} 
+h3{
+    display: inline;
+    margin-bottom: px;
+    margin-right: 166px;
+    font-family: "IBM Plex Sans";
+    font-size: 30px;
+    font-weight: 700;
+    width: 146px;
+}
+footer{
+    position: absolute;
+    display: flex;
+    Width: 1110px;
+    Height: 79px;
+    left: 165px;
+    bottom: 91px;
+    /* bottom: 200px;
+    left: 100px; */
+}
+footer p{
+    margin-left: 20px;
+    margin-bottom: 40px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #191826;
+    width: 300px;
+    height: 79px;
+}
+.icon{
+    margin-left: 400px;
+    display: flex;
+    justify-content: space-around;
+    width: 110px;
+}
+.fb{
+    width: 20px;
+    height: 20px;
+}
+svg:hover path{
+fill: #FA7453;
+}
+
+.insta{
+    width: 20px;
+    height: 20px;
+}
+.twit{
+    width: 20px;
+    height: 16px;
+}
+
+@media(max-width: 768px){
+.contaner{
+    height: 1781px;
+}   
+h6{
+    left: 39px;
+}
+.mosaic{
+    width: 265px;
+    height: 399px;
+}
+h1{
+    width: 520px;
+    Height: 192px;
+    font-size: 64px;
+    left: 39px;
+    line-height: 64px;
+}
+.system{
+    width: 514px;
+    height: 112px;
+    left: 39px;
+}
+.box{
+    left: 33px;
+    Width: 696px;
+    Height: 600px;
+}
+.phone{
+   width: 320px;
+    Height: 556px;
+    left: 75px;
+}
+.inbox{
+    left: 270px;
+    width: 250px;
+    height: 400px;
+}
+.redbox{
+    width: 300px;
+    height: 420px;
+    left: 260px;
+} 
+h2{
+    Width: 302px;
+    Height: 40px;
+    font-size: 32px;
+}
+.redboxp{
+    width: 302px;
+    height: 140px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.iphone{
+    width: 296px;
+    height: 61px;
+}
+.android{
+    width: 296px;
+    height: 61px;
+}
+.dolar{
+    width: 165px;
+    Height: 52px;
+}
+footer{
+    Width: 696px;
+    Height: 143px;
+    flex-direction: column;
+    align-items: flex-start;
+    left: 33px;
+}
+h3{
+    width: 146.09px;
+    height: 32px;
+    margin-top: 34px;
+}
+footer p{
+    Width: 350px;
+    Height: 79px;
+    margin-left: 0;
+    margin-top: 30px;
+}
+.icon{
+    width: 85px;
+    margin-left: 0;
+}
+}
+
+
+@media(max-width:375px){
+.contaner{
+    height: 1945px;
+}
+h6{
+    top: 40px;
+    left: 24px;
+}
+.mosaic{
+    display: none;
+} 
+h1{
+    width: 327px;
+    height: 144px;
+    font-size: 40px;
+    line-height: 48px;
+    top: 136px;
+    Left: 24px;
+}
+.system{
+    width: 327px;
+    height: 156px;
+    font-size: 16px;
+    line-height: 26px;
+    top: 300px;
+    left: 24px;
+}
+.box{
+    width: 375px;
+    height: 600px;
+    top: 622px;
+    left: 0;
+}
+.inbox{
+    width: 280px;
+    height: 420px;
+    top: 622px;
+    left: 48px;
+}
+.phone{
+    width: 208px;
+    height: 430px;
+    top: 524px;
+    left: 80px;
+}
+.redbox{
+    width: 270px;
+    height: 546px;
+    left: 0;
+    top: 1002px;
+}
+h2{
+    width: 250px;
+    height: 40px;
+    font-size: 32px;
+    line-height: 40px;
+}
+.redbox p{
+    width: 250px;
+    height: 140px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.dolar{
+    width: 165px;
+    height: 52px;
+
+}
+.iphone{
+    width: 280px;
+    height: 61px;
+}
+.android{
+    width: 280px;
+    height: 61px;
+}
+h3{
+    display: inline;
+    margin-bottom: px;
+    margin-right: 166px;
+    font-family: "IBM Plex Sans";
+    font-size: 30px;
+    font-weight: 700;
+    width: 146px;
+}
+footer p{
+    width: 330px;
+    height: 79px;
+}
+.icon{
+    margin-left: 0;
+    width: 100px;
+    bottom: 10px;
+}
+}
+
